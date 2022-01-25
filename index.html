@@ -8,27 +8,32 @@
     <link rel = "stylesheet" href = "css/style.css">
 </head>
 <body>
-    <div>
+    <div id = 'main_box'>
         <!--main heading-->
-        <h1>My to-do list</h1>
-        <h6>Double-click an item to mark it complete.</h6>
-        <form>
-            <input type = text value=" ">
-            <input type = button Value = "Add">
-        </form>
-         <!--list items-->
-        <div>
-            <ol>
-                <li>My</li>
-                <li>to do</li>
-                <li>list</li>
-            </ol>
-        </div>
-        <!--Buttons-->
-        <div>
-            <button>Clear Completed</button>
-            <button>Empty</button>
-            <button>Save list</button>
-        </div>
+        <div id = "container">
+            <h1>My to-do list</h1>
+            <h5>Double-click an item to mark it complete.</h5>
+            <form>
+                <input type = text value=" ">
+                <input class = "button_1" type = button Value = "Add">
+            </form>
+            <!--list items-->
+            <div>
+                <ol>
+                    <li>My</li>
+                   <li id ="list_2">to do</li>
+                    <li>list</li>
+                </ol>
+            </div>
+            <!--Buttons-->
+            <div>
+                <button class = "button_1">Clear Completed</button>
+                <button class = "button_1" id ="btn_2" >Empty</button>
+                <button class = "button_1" id = "btn_3">Save list</button>
+            </div>
+    </div>
+    </div>
+        
+
 </body>
 </html>
